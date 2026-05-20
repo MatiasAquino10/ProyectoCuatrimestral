@@ -195,4 +195,98 @@ aside {
     git push
 */
 
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+th {
+
+    background-color: transparent;
+    color: var(--texto);
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+
+}
+
+th[colspan="3"] {
+    background-color: var(--verde-oscuro);
+    color: var(--texto-suave);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--verde-medio);
+    border-radius: 5%;
+  }
+
+td {
+
+    padding: 10px 12px;
+    border-bottom: 1px solid #444;
+
+}
+
+tr:nth-child(even) {
+
+    background-color: #2f2f2f;
+
+}
+
+form {
+
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+input, textarea {
+
+    width: 100%;
+    background-color: #1a1a1a;
+    color: var(--texto);
+    border: 1px solid var(--verde-medio);
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: var(--font-cuerpo);
+
+}
+
+button {
+
+    background-color: var(--verde-medio);
+    color: #fff;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+
+}
+
+button:hover {
+
+    background-color: var(--verde-oscuro);
+    transform: scale(1.05);
+
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+/*
+    git add .
+    git commit -m "style: estilizo tabla y formulario"
+    git push
+*/
+
 
