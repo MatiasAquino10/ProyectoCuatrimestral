@@ -16,7 +16,7 @@ Este proyecto es una guía interactiva sobre Minecraft orientada a jugadores nue
  
 ## Autor
  
-[Matías Aquino]
+Matías Aquino
  
 ## Materia
  
