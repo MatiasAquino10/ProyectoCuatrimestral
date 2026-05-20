@@ -116,3 +116,83 @@ nav a:hover {
     git push
 */
 
+main {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+}
+
+section {
+
+    background-color: var(--fondo-card);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+
+    font-family: var(--font-titulo);
+    font-size: 1.5rem;
+    color: var(--verde-claro);
+    border-bottom: 2px solid var(--verde-medio);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+article {
+
+    background-color: #2a2a2a;
+    border-left: 4px solid var(--verde-medio);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+article:hover {
+
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+
+}
+
+aside {
+
+    background-color: #2e1f0a;
+    border-left: 4px solid #f0a500;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 20px;
+    font-style: italic;
+
+}
+
+#mobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  #mobs h2 {
+    grid-column: 1 / -1;
+  }
+  
+  #mobs p {
+    grid-column: 1 / -1;
+  }
+
+  /*
+    git add .
+    git commit -m "style: agrego estilos de secciones y tarjetas"
+    git push
+*/
+
+
