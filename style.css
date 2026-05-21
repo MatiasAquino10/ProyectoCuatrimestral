@@ -289,4 +289,28 @@ iframe {
     git push
 */
 
+footer {
+
+    background-color: var(--verde-oscuro);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 4px solid var(--verde-medio);
+    color: var(--texto-suave);
+
+}
+
+footer img {
+
+    display: none;
+
+}
+
+/*
+    git add .
+    git commit -m "style: estilizo footer"
+    git push
+*/
+
+
 
