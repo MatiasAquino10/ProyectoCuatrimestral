@@ -76,7 +76,7 @@ https://github.com/MatiasAquino10/ProyectoCuatrimestral
  
 ## Autor
  
-Matías Aquino
+Matías Aquino.
  
 ## Materia
  
