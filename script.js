@@ -57,10 +57,16 @@ function validarFormulario(evento) {
       }
   
       // Si pasa las validaciones, mostramos éxito
-      mostrarMensaje("✅ ¡Mensaje enviado correctamente! Gracias, " + nombre + ".", "exito");
+      mostrarMensaje("¡Mensaje enviado correctamente! Gracias, " + nombre + ".", "exito");
+
+        document.getElementById("nombre").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("mensaje").value = "";
   
     } catch (error) {
+
       mostrarMensaje("❌ " + error.message, "error");
+
     }
 
   }
@@ -112,4 +118,3 @@ function filtrarMobs() {
 
   document.getElementById("buscador-mobs").addEventListener("input", filtrarMobs);
 
-  
