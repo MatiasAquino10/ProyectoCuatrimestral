@@ -57,6 +57,7 @@ function validarFormulario(evento) {
       }
   
       // Si pasa las validaciones, mostramos éxito
+
       mostrarMensaje("¡Mensaje enviado correctamente! Gracias, " + nombre + ".", "exito");
 
         document.getElementById("nombre").value = "";
@@ -99,15 +100,20 @@ function validarFormulario(evento) {
 function filtrarMobs() {
 
     const busqueda = document.getElementById("buscador-mobs").value.toLowerCase();
-    const items = document.querySelectorAll("#mobs li");
-  
-    items.forEach(function(item) {
+    const tarjetas = document.querySelectorAll("#mobs article");
 
-      const texto = item.textContent.toLowerCase();
+    tarjetas.forEach(function(tarjeta) {
+        
+      const texto = tarjeta.textContent.toLowerCase();
+
       if (texto.includes(busqueda)) {
-        item.style.display = "list-item";
+
+        tarjeta.style.display = "block";
+
       } else {
-        item.style.display = "none";
+
+        tarjeta.style.display = "none";
+
       }
 
     });

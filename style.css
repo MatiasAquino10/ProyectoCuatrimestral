@@ -381,6 +381,12 @@ footer img {
 
     }
 
+    #buscador-mobs {
+
+        width: 100%;
+        
+      }
+
 }
 
 /*
@@ -422,5 +428,5 @@ footer img {
     width: 50%;
     margin-bottom: 20px;
     grid-column: 1 / -1;
-        
+
   }
