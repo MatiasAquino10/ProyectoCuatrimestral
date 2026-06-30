@@ -15,6 +15,9 @@ Este proyecto es una guía interactiva sobre Minecraft orientada a jugadores nue
 - Información sobre mobs y enemigos
 - Video tutorial embebido de YouTube
 - Formulario de contacto
+- Generador de consejo aleatorio interactivo
+- Buscador de mobs en tiempo real
+- Validación de formulario con mensajes de error y éxito
 
 ---
 
@@ -41,6 +44,7 @@ CELULAR/TABLET
 - Google Fonts (Press Start 2P)
 - YouTube Embed (iframe responsivo)
 - Git y GitHub Pages
+- JavaScript (ES6 - Arrays, DOM, Eventos, try/catch)
 
 ---
 
@@ -57,6 +61,18 @@ CELULAR/TABLET
 - Botón de envío con animación de escala al hover
 
 ---
+
+## Funcionalidades JavaScript implementadas
+
+- **Generador de consejo aleatorio:** muestra un tip de supervivencia al azar desde un array cada vez que el usuario hace clic.
+
+- **Buscador de mobs:** filtra en tiempo real los mobs y enemigos mientras el usuario escribe.
+
+- **Validación de formulario:** verifica campos obligatorios y formato de email, mostrando mensajes de error o éxito con manejo de excepciones (try/catch).
+
+## Enlace al repositorio
+
+https://github.com/MatiasAquino10/ProyectoCuatrimestral
  
 ## Autor
  
